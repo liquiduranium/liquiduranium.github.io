@@ -9,13 +9,13 @@
     color: var(--sea);
 }
 @font-face {
-    font-family: "Domine", serif;
+    font-family: "Domine";
     src: url("fonts/Domine.ttf");
 }
 body {
     background: var(--sea);
     color: var(--snow);
-    font-family: "Domine", serif;
+    font-family: "Domine";
     font-size: 17px;
 }
 a {
