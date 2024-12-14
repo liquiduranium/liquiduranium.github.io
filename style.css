@@ -1,0 +1,41 @@
+:root {
+    --sea: rgb(30, 30, 59);
+    --snow: rgb(228, 235, 255);
+    --navy: rgb(59, 72, 109);
+    --sun: rgb(250, 128, 83);
+}
+::selection {
+    background: var(--snow);
+    color: var(--sea);
+}
+@font-face {
+    font-family: "Domine", serif;
+    src: url("fonts/Domine.ttf");
+}
+body {
+    background: var(--sea);
+    color: var(--snow);
+    font-family: "Domine", serif;
+    font-size: 17px;
+}
+a {
+    color: var(--sun);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1.2px;
+}
+a:active {
+    color: rgb(255, 164, 98);
+}
+hr {
+    color: var(--navy);
+}
+abbr:hover {
+    cursor: help; /* alias */
+}
+.box {
+    max-width: 685px;
+    margin: auto;
+}
