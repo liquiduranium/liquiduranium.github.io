@@ -1,13 +1,13 @@
 // taken from https://stackoverflow.com/questions/72234741/how-can-i-display-an-random-quote-from-an-javascript-array-in-html
-function textOfToday() {
+function quoteGenerator() {
 
-    var textOfTodayArray = [
+    var quotes = [
         "Everything's connected",
         "I never learned to read!",
-        "How many times have you refreshed the page now?"
+        "That's some nice soup",
     ];
   
-    document.getElementById('randomTitle').innerHTML = textOfTodayArray[Math.floor(Math.random() * textOfTodayArray.length)];
+    document.getElementById("quote").innerHTML = quotes[Math.floor(Math.random() * quotes.length)];
   }
   
-  textOfToday();
+  quoteGenerator();
