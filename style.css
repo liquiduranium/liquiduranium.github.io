@@ -31,11 +31,15 @@ a:active {
 }
 hr {
     color: var(--navy);
+    width: 68%;
 }
-abbr:hover {
+.box hr {
+    width: 100%;
+}
+abbr:hover, #reisen:hover {
     cursor: help; /* alias */
 }
 .box {
-    max-width: 685px;
+    max-width: 850px;
     margin: auto;
 }

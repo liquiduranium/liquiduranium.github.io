@@ -6,40 +6,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/rocketicon.png" type="image/png">
+    <style>
+        #quote::before {
+            content: '"';
+            color: var(--sun);
+        }
+        #quote::after {
+            content: '"';
+            color: var(--sun);
+        }
+        .centerimg {
+            display: inline-block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .nav ul {
+            text-align: center;
+        }
+        .nav ul li {
+            display: inline;
+        }
+        .nav ul li::after {
+            content: " ┆ ";
+        }
+        .nav ul li:first-child::before {
+            content: "┆ ";
+        }
+    </style>
 </head>
 <body>
-    <!-- <p id="quote" style="text-align: center; font-style: italic; font-size: 13.7px;"></p> -->
+    <h3 style="text-align: center;" id="quote"></h3>
+    <div class="nav">
+        <ul>
+            <li><a href="projects.html">projects</a></li>
+            <li><a href="shrines.html">shrines</a></li>
+            <li><a href="blog.html">blog</a></li>
+            <li><a href="links.html">links</a></li>
+            <li><a href="sitemap.html">sitemap</a></li>
+            <li><a href="about.html">about</a></li>
+        </ul>
+    </div>
+    <hr>
     <div class="box">
-        <p>Hey!
-        I'm <b>Rocket/Zoxie/Lua</b> <i>(any of these are ok)</i> and this is my website. I'm a critter!</p>
-        <p>This site is a wip, if you can't tell. It won't look like this forever! I'll make it prettier eventually.</p>
-        <p>I like:
+        <img src="img/reisen.png" alt="A Fumo of Reisen Udongein Inaba" width="220" style="float: right;" onclick="playAudio()" id="reisen">
+        <p>Hi! I'm <b>Rocket/Zoxie/Lua</b> and this is my website. I'm a critter on the interwebs! It's a WIP for now, it'll look prettier soon, promise.</p>
+        <p>I like a lot of things, including but not limited to: 
             <ul>
                 <li>Math</li>
                 <li>Astronomy</li>
-                <li>Roblox <i>(<a href="https://www.roblox.com/games/5475056496/Dream-Game">Dream Game</a>, 
-                <a href="https://www.roblox.com/games/7138009149/PHIGHTING-ALPHA">PHIGHTING!</a>, 
-                <a href="https://www.roblox.com/games/6728212466/Limbobbia">Limbobbia</a>, 
-                <a href="https://www.roblox.com/games/16483433878/Block-Tales-Demo-2">Block Tales</a> are my favorites!)</i></li>
+                <li>Computer Science</li>
+                <li>Roblox (<a href="https://www.roblox.com/games/5475056496/Dream-Game">Dream Game</a>, <a href="https://www.roblox.com/games/7138009149/PHIGHTING-ALPHA">PHIGHTING!</a>, <a href="https://www.roblox.com/games/6728212466/Limbobbia">Limbobbia</a> and <a href="https://www.roblox.com/games/4972273297/Regretevator-ELEVATOR-SIMULATOR">Regretevator</a> are my favorites!)</li>
             </ul>
         </p>
-        <p>You can contact me on
-        <a rel="me" href="https://mathstodon.xyz/@rocket">Mastodon</a> or at <b>frospitality[at]proton.me</b>!
-        </p>
+        <p>You can contact me on <a rel="me" href="https://mathstodon.xyz/@rocket">Mastodon</a> or at <b>frospitality[at]proton.me</b>!</p>
         <hr>
-        <a href="https://boombox.nekoweb.org"><img src="img/link/boombox.png" alt="A black button with neon green text saying Boombox zone"></a>
-        <a href="https://yolkdump.neocities.org"><img src="https://yolkdump.neocities.org/aboutassets/yolk.gif" alt="Text saying yolkerson" style="width: 88px; height: 31px;"></a>
-        <a href="https://rubyda-alien.straw.page/">Ruby</a>
-        <a href="https://toyhou.se/scribblekitteh43">Kit</a>
-        <br>
+        <img src="img/buttonmine.png" alt="A button with an image of Reisen in the background that says liquiduarnium">
         <a href="https://code.visualstudio.com"><img src="img/buttonvs.gif" alt="A blue button that says Built with VScode with the Visual Studio Code icon next to it"></a>
+        <img src="img/buttonpaw.png" alt="A gray button that says made with my own two paws">
+        <img src="img/buttonbunbrowser.gif" alt="A grey button that says bunny browser">
         <img src="img/buttonautism.png" alt="A purple button that says Autism Acceptance NOW!">
-        <iframe src="https://incr.easrng.net/badge?key=zoxierocketlualuminousity" style="background: url(//incr.easrng.net/bg.gif)" title="increment badge" width="88" height="31" frameborder="0"></iframe>
+        <img src="img/buttonyn.gif" alt="A gif of Madotsuki from Yume Nikki standing in rain">
         <a href="https://www.roblox.com/games/5475056496/Dream-Game"><img src="img/buttonfissure.png" alt="A gray button that says Frissure Free Site!"></a>
+        <img src="img/buttontouhou.gif" alt="A button that says touhou in japanese with a red-white ying yang symbol next to it">
+        <iframe src="https://incr.easrng.net/badge?key=zoxierocketlualuminousity" style="background: url(//incr.easrng.net/bg.gif)" title="increment badge" width="88" height="31" frameborder="0"></iframe>
         <hr>
-        <a href="https://www.hamqsl.com/solar.html" title="Click to add Solar-Terrestrial Data to your website!"><img src="https://www.hamqsl.com/solarsystem.php"></a>
-        <a href="https://www.hamqsl.com/solar.html" title="Click to add Solar-Terrestrial Data to your website!"><img src="https://www.hamqsl.com/solarsun.php" width="330" height="200"></a>
+        <a href="https://www.hamqsl.com/solar.html" title="Click to add Solar-Terrestrial Data to your website!"><img src="https://www.hamqsl.com/solarsystem.php" class="centerimg"></a>
+        <a href="https://www.hamqsl.com/solar.html" title="Click to add Solar-Terrestrial Data to your website!"><img src="https://www.hamqsl.com/solarsun.php" width="330" height="200" class="centerimg"></a>
     </div>
-    <script src="quote.js"></script>
+    <script>
+    function quoteGenerator() {
+
+    var quotes = [
+        "oooooough its that pest that I hate.",
+        "OH NOOOOOO",
+        "Oh Eh Oh Ah Ah Ting Tang Walla Walla Bing Bang",
+        "I got a girlfriend that's better than that",
+        "water in a well fell down",
+        "I wanna dance, wanna fly, want a unicorn!",
+        "bring me fun",
+        "it's completely dark when I close my eyes!",
+        "I'll crypto-freeze you together with some English beef!!",
+        "I don't get it",
+        "ohhhhhhhhhhhhhhhhhhhh",
+        "The Quick Brown Fox Jumps Over The Lazy Dog",
+        "in Life, the Sensuous Dream",
+        "in Limbo, the Silent Dream",
+        "in Logic, the Symbolic Dream",
+        "in Laughter, the Spiritual Dream", 
+        "in Lunacy, the Savage Dream", 
+        "in Leisure, the Sonorous Dream",
+        "in Linking, the Sapient Dream",
+        "9",
+    ];
+
+    document.getElementById("quote").innerHTML = quotes[Math.floor(Math.random() * quotes.length)];
+    }
+
+    quoteGenerator();
+    // reisen reisen reisen reisen re
+    const audioClipPaths = [
+        "audio/uro1.mp3",
+        "audio/uro2.mp3",
+        "audio/uro3.mp3"
+    ]; 
+	 
+    function playAudio() {
+       let index = Math.floor(Math.random() * 3);
+       let audioClip = audioClipPaths[index]
+      
+       new Audio(audioClip).play();
+     }
+    </script>
 </body>
 </html>
