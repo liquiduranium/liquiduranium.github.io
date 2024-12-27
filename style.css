@@ -43,3 +43,8 @@ abbr:hover, #reisen:hover {
     max-width: 850px;
     margin: auto;
 }
+@media screen and (max-width:750px) {
+    hr {
+        width: 70% !important;
+    }
+}
