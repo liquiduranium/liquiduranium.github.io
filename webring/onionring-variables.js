@@ -27,4 +27,4 @@ var useIndex = false
 var indexPage = 'https://liquiduranium.github.io/webring.html';
 
 //should the widget include a random button?
-var useRandom = true;
+var useRandom = false;
