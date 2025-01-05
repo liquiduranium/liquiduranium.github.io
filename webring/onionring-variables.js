@@ -22,9 +22,9 @@ var ringName = 'Legring';
 var ringID = 'legringid';
 
 //should the widget include a link to an index page?
-var useIndex = true;
+var useIndex = false
 //the full URL of the index page. if you're not using one, you don't have to specify anything here
-var indexPage = 'https://example.com/index.html';
+var indexPage = 'https://liquiduranium.github.io/webring.html';
 
 //should the widget include a random button?
-var useRandom = false;
+var useRandom = true;
