@@ -5,32 +5,36 @@
 /* === ONIONRING.CSS === */
 /* this file affects the style of the widget. remember to replace all instances of #webringid with whatever value you have for ringID in the onionring-widget.js file. make sure it still has the # at the front, though! probably easiest to use find+replace to do it */
 
-#webringid {
+#legringid {
   margin: 0 auto;
   padding: 15px; /* creates some space around the widget */
 }
 
-#webringid table {
-  background-color: #ffffff; /* makes the background pure white */
+#legringid table {
+  background: url("https://file.garden/ZX_65G2nsi-rTDmw/F4aql_VWgAAkOSf.png"); /* makes the background pure white */
+  background-size: 23%;
+  background-repeat: repeat;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   margin: 0 auto; /* centers the widget */
 }
 
-#webringid table tr td {
+#legringid table tr td {
   padding: 15px; /* creates some space between the links and text inside the widget */
 }
 
-#webringid .webring-prev {
+#legringid .webring-prev {
   text-align:right;
 }
 
-#webringid .webring-info {
+#legringid .webring-info {
    text-align:center;
 }
 
-#webringid .webring-next {
+#legringid .webring-next {
   text-align:left;
 }
 
-#webringid .webring-links {
+#legringid .webring-links {
   font-size:small;
 }
