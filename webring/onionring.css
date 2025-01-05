@@ -11,13 +11,14 @@
 }
 
 #legringid table {
-  background: url("https://file.garden/ZX_65G2nsi-rTDmw/F4aql_VWgAAkOSf.png"); /* makes the background pure white */
+  background: url("https://file.garden/ZX_65G2nsi-rTDmw/F4aql_VWgAAkOSf.png");
   background-size: 23%;
   background-repeat: repeat;
   background-position: center center;
+  font-family: cursive;
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-  margin: 0 auto; /* centers the widget */
+  margin: 0 auto;
 }
 
 #legringid table tr td {

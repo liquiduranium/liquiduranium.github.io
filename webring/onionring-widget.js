@@ -58,13 +58,13 @@ else {
   tag.insertAdjacentHTML('afterbegin', `
   <table>
     <tr>
-      <td class='webring-prev'><a href='${sites[previousIndex]}'>← previous</a></td>
-      <td class='webring-info'>this site is a certified member of the ${ringName} webring!!!</br>
+      <td class='webring-prev'><a href='${sites[previousIndex]}'><img src="img/fish.gif"> previous</a></td>
+      <td class='webring-info'>this site is a certified member of the ${ringName} webring! YA ZUKA!</br>
       <span class='webring-links'>
         ${randomText}
         ${indexText}
         <a href='https://garlic.garden/onionring/'>whats a webring</a></span></td>
-      <td class='webring-next'><a href='${sites[nextIndex]}'>next →</a></td>
+      <td class='webring-next'><a href='${sites[nextIndex]}'>next <img src="img/fish.gif"></a></td>
     </tr>
   </table>
   `);
