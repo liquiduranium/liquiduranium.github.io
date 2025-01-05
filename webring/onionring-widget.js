@@ -45,7 +45,7 @@ else {
   indexText = ""
   //if you've chosen to include an index, this builds the link to that
   if (useIndex) {
-    indexText = `<a href='${indexPage}'>index</a> | `;
+    indexText = `<a href='${indexPage}'>what the hell is this</a> | `;
   }
 
   randomText = ""
@@ -63,7 +63,7 @@ else {
       <span class='webring-links'>
         ${randomText}
         ${indexText}
-        <a href='https://garlic.garden/onionring/'>what is this?</a></span></td>
+        <a href='https://garlic.garden/onionring/'>whats a webring</a></span></td>
       <td class='webring-next'><a href='${sites[nextIndex]}'>next →</a></td>
     </tr>
   </table>

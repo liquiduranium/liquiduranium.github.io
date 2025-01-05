@@ -14,6 +14,7 @@
   background: url("https://file.garden/ZX_65G2nsi-rTDmw/F4aql_VWgAAkOSf.png"); /* makes the background pure white */
   background-size: 23%;
   background-repeat: repeat;
+  background-position: center center;
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   margin: 0 auto; /* centers the widget */
