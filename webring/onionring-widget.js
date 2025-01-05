@@ -30,7 +30,7 @@ if (thisIndex == null) {
   tag.insertAdjacentHTML('afterbegin', `
 <table>
   <tr>
-    <td>This site isn't part of the ${ringName} webring yet. Lol</td>
+    <td>this site isn't part of the ${ringName} webring. Lol</td>
   </tr>
 </table>
   `);
@@ -47,19 +47,13 @@ else {
   if (useIndex) {
     indexText = `<a href='${indexPage}'>index</a> | `;
   }
-
-  randomText = ""
-  //if you've chosen to include a random button, this builds the link that does that
-  if (useRandom) {
-    randomText = `<a href='javascript:void(0)' onclick='randomSite()'>random</a> | `;
-  }
-
+  
   //this is the code that displays the widget - EDIT THIS if you want to change the structure
   tag.insertAdjacentHTML('afterbegin', `
   <table>
     <tr>
       <td class='webring-prev'><a href='${sites[previousIndex]}'>← previous</a></td>
-      <td class='webring-info'>This site is part of the ${ringName} webring</br>
+      <td class='webring-info'>this site is a certified member of the ${ringName} webring!!!</br>
       <span class='webring-links'>
         ${randomText}
         ${indexText}
