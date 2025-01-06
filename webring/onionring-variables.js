@@ -9,8 +9,6 @@
 var sites = [
 'https://liquiduranium.github.io/',
 'https://boombox.nekoweb.org/',
-/* 'https://example.com/',
-'https://example.com/' add more later dingus*/
 ];
 
 //the name of the ring
