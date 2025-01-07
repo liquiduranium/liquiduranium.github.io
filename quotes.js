@@ -1,6 +1,11 @@
 function quoteGenerator() {
 
     var quotes = [
+        /* "<span aria-hidden='true'>૮( ^_^ )১</span>", */
+        "<span aria-hidden='true'>ᓚᘏᗢ</span>",
+        "<span aria-hidden='true'>/ᐠ - ˕ -マ</span>",
+        "<span aria-hidden='true'>@y</span>",
+        "<span aria-hidden='true'>▀▄▀</span>",
         "WOO!",
         "YEAH!",
         "WOO! YEAH!",
@@ -19,6 +24,7 @@ function quoteGenerator() {
         "what's it gonna be? Huh? Huh?",
         "Oh Eh Oh Ah Ah Ting Tang Walla Walla Bing Bang",
         "All the people rest at the Moon's request",
+        "You are one ant",
         "I got a girlfriend that's better than that",
         "You may find yourself in another part of the world",
         "This is not my beautiful wife",
@@ -31,6 +37,7 @@ function quoteGenerator() {
         "You gotta dance, you know this is a dance audition?",
         "I wanna dance, wanna fly, want a unicorn!",
         "Bring me fun",
+        "Stop making that big face!",
         "She's terminal blue",
         "Decimator!",
         "Into oblivion!",
@@ -47,10 +54,13 @@ function quoteGenerator() {
         "A good day to blow stuff up!",
         "Don't bring a knife to a rocket launcher fight!",
         "Hello! Today is a wonderful day.",
+        "I'm not gonna sugarcoat it.",
+        "Toasted!",
         "pl0x",
         "friend",
         "Soup!",
         "Juice!",
+        "",
         "ROBLOX brings you Pants",
         "Pants and Pants and Pants and Pants and Shirts",
         "and Pants and Shirts and Shirts and Pants and Shirts",
