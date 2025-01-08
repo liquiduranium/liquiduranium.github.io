@@ -10,6 +10,7 @@ var sites = [
 'https://liquiduranium.github.io/',
 'https://boombox.nekoweb.org/',
 'https://scribblekitteh.nekoweb.org/',
+'https://yolkdump.neocities.org/',
 ];
 
 //the name of the ring

@@ -23,6 +23,7 @@ function quoteGenerator() {
         "The best in town!",
         "When you're not looking at this website it doesn't exist",
         "Beware, I live!",
+        "I change on refresh!",
         "how many times have you refreshed this jesus christ man",
         "what's it gonna be? Huh? Huh?",
         "Oh Eh Oh Ah Ah Ting Tang Walla Walla Bing Bang",
