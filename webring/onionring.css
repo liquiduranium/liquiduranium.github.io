@@ -40,3 +40,9 @@
 #legringid .webring-links {
   font-size:small;
 }
+#legringid a {
+  color: rgb(79, 156, 159);
+}
+#legringid a:hover {
+  font-style: italic;
+}
