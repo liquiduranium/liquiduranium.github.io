@@ -1,8 +1,9 @@
+* {
+    cursor: url(img/cursor.png), default;
+}
 :root {
     --sea: rgb(30, 30, 59);
     --snow: rgb(228, 235, 255);
-    --navy: rgb(59, 72, 109);
-    --sun: rgb(250, 128, 83);
 }
 ::selection {
     background: var(--snow);
@@ -12,39 +13,70 @@
     font-family: "Domine";
     src: url("fonts/Domine.ttf");
 }
+html {
+    scrollbar-color: var(--snow) transparent;
+    scrollbar-width: auto;
+}
 body {
-    background: var(--sea);
-    color: var(--snow);
+    background: url("img/mall.png");
+    background-size: cover;
     font-family: "Domine";
-    font-size: 17px;
-}
-a {
-    color: var(--sun);
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
-    text-decoration-thickness: 1.2px;
-}
-a:active {
-    color: rgb(255, 164, 98);
+    color: var(--snow);
 }
 hr {
-    color: var(--navy);
-    width: 68%;
+    color: 1.5px solid var(--snow);
 }
-.box hr {
-    width: 100%;
+a {
+    color: plum;
 }
-abbr:hover, #reisen:hover {
-    cursor: help; /* alias */
+a:hover {
+    cursor: url(img/hover2.png), pointer;
+}
+nav ul {
+    list-style: none;
+    padding-left: 25px;
+}
+nav ul li {
+    list-style-type: "➜ ";
+}
+nav ul li a {
+    transition: 0.2s;
+    margin-left: 0;
+}
+nav ul li a:hover {
+    padding-left: 15px;
+}
+.wrapper {
+    max-width: 1000px;
+    display: flex;
+    margin: auto;
+    height: 97vh;
 }
 .box {
-    max-width: 850px;
-    margin: auto;
+    background: rgba(10, 8, 24, 0.534);
+    border: 1.5px solid var(--snow);
+    box-sizing: border-box;
+    padding: 0 10px 0 10px;
 }
-@media screen and (max-width:750px) {
-    hr {
-        width: 70% !important;
+.box:first-of-type {
+    width: 20%; 
+    border-right: none;
+}
+.box:last-of-type {
+    width: 80%;
+}
+.title {
+    border-bottom: 1.5px solid var(--snow);
+    padding: 5px;
+}
+@media screen and (max-width:800px) {
+    #reisen {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none !important;
+    }
+    .imgcenter {
+        display: inline;
     }
 }
