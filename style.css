@@ -65,7 +65,7 @@ nav ul li a:hover {
 .box:last-of-type {
     width: 80%;
 }
-.title {
+.title:first-of-type {
     border-bottom: 1.5px solid var(--snow);
     padding: 5px;
 }
