@@ -50,7 +50,7 @@ nav ul li a:hover {
     max-width: 1000px;
     display: flex;
     margin: auto;
-    height: 97vh;
+    height: auto;
 }
 .box {
     background: rgba(10, 8, 24, 0.534);
