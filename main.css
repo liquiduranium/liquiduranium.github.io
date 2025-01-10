@@ -1,0 +1,28 @@
+:root {
+    --main: plum;
+    --light: rgb(248, 240, 255);
+}
+::selection {
+    background: var(--light);
+    color: var(--sea);
+}
+body {
+    background: url(img/mall.png);
+    background-size: cover;
+    color: var(--light);
+}
+a {
+    color: var(--main);
+}
+a:hover:not(nav ul li a) {
+    background: var(--main);
+    color: var(--sea);
+    cursor: url(img/hover2.png), pointer;
+}
+a:active {
+    color: rgb(150, 239, 150);
+}
+.box {
+    background: rgba(10, 8, 24, 0.534);
+    border: 1.5px solid var(--light);
+}

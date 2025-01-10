@@ -2,3 +2,13 @@ body {
     background: url(../img/Autumnal.png);
     background-size: cover;
 }
+.box {
+    background: rgba(17, 8, 24, 0.534);
+}
+a {
+    color: #dd533b;
+}
+a:hover:not(nav ul li a) {
+    background: #dd533b;
+    color: var(--sea);
+}

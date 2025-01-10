@@ -2,7 +2,7 @@
     cursor: url(img/cursor.png), default;
 }
 :root {
-    --sea: rgb(30, 30, 59);
+    --sea: rgb(10, 8, 24);
     --snow: rgb(228, 235, 255);
 }
 ::selection {
@@ -18,33 +18,13 @@ html {
     scrollbar-width: auto;
 }
 body {
-    background: url("img/mall.png");
-    background-size: cover;
     font-family: "Domine";
-    color: var(--snow);
 }
 hr {
     color: 1.5px solid var(--snow);
 }
-a {
-    color: plum;
-}
 a:hover {
     cursor: url(img/hover2.png), pointer;
-}
-nav ul {
-    list-style: none;
-    padding-left: 25px;
-}
-nav ul li {
-    list-style-type: "➜ ";
-}
-nav ul li a {
-    transition: 0.2s;
-    margin-left: 0;
-}
-nav ul li a:hover {
-    padding-left: 15px;
 }
 .wrapper {
     max-width: 1000px;
@@ -53,8 +33,6 @@ nav ul li a:hover {
     height: auto;
 }
 .box {
-    background: rgba(10, 8, 24, 0.534);
-    border: 1.5px solid var(--snow);
     box-sizing: border-box;
     padding: 0 10px 0 10px;
 }
@@ -68,15 +46,4 @@ nav ul li a:hover {
 .title:first-of-type {
     border-bottom: 1.5px solid var(--snow);
     padding: 5px;
-}
-@media screen and (max-width:800px) {
-    #reisen {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        float: none !important;
-    }
-    .imgcenter {
-        display: inline;
-    }
 }

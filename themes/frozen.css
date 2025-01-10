@@ -1,4 +1,18 @@
+:root {
+    --main: #519ad1;
+    --light: rgb(228, 235, 255);
+}
 body {
     background: url(../img/Frozen.png);
     background-size: cover;
+}
+.box {
+    background: rgba(8, 13, 24, 0.534);
+}
+a {
+    color: var(--main);
+}
+a:hover:not(nav ul li a) {
+    background: var(--main);
+    color: var(--sea);
 }
