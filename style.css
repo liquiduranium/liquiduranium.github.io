@@ -23,6 +23,9 @@ body {
 hr {
     color: 1.5px solid var(--snow);
 }
+a {
+    text-decoration: none;
+}
 a:hover {
     cursor: url(img/hover2.png), pointer;
 }

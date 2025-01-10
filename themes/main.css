@@ -7,7 +7,7 @@
     color: var(--sea);
 }
 body {
-    background: url(img/mall.png);
+    background: url(../img/mall.png);
     background-size: cover;
     color: var(--light);
 }
@@ -17,7 +17,6 @@ a {
 a:hover:not(nav ul li a) {
     background: var(--main);
     color: var(--sea);
-    cursor: url(img/hover2.png), pointer;
 }
 a:active {
     color: rgb(150, 239, 150);
