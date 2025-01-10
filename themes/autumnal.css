@@ -1,14 +1,19 @@
+:root {
+    --main: #dd533b;
+    --light: rgb(226, 220, 254);
+}
 body {
     background: url(../img/Autumnal.png);
     background-size: cover;
+    color: var(--light);
 }
 .box {
     background: rgba(17, 8, 24, 0.534);
 }
 a {
-    color: #dd533b;
+    color: var(--main);
 }
 a:hover:not(nav ul li a) {
-    background: #dd533b;
+    background: var(--main);
     color: var(--sea);
 }

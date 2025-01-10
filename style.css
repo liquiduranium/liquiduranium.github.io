@@ -10,15 +10,15 @@
     color: var(--sea);
 }
 @font-face {
-    font-family: "Domine";
-    src: url("fonts/Domine.ttf");
+    font-family: "Atkinson-Hyperlegible";
+    src: url("fonts/Atkinson.ttf");
 }
 html {
     scrollbar-color: var(--snow) transparent;
     scrollbar-width: auto;
 }
 body {
-    font-family: "Domine";
+    font-family: "Atkinson-Hyperlegible";
 }
 hr {
     color: 1.5px solid var(--snow);
