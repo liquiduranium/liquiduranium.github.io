@@ -1,2 +1,3 @@
 # liquiduranium.github.io
-Is my personal site. That's it. Hope you enjoy! It's still very much a WIP.
+is my personal site ^.^<br>
+still a huge wip as of now, if you have any feedback contact me!
