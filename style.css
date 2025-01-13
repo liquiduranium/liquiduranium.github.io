@@ -30,7 +30,6 @@ a:hover {
     cursor: url(img/hover2.png), pointer;
 }
 .wrapper {
-    max-width: 1000px;
     display: flex;
     margin: auto;
     height: auto;
@@ -49,4 +48,12 @@ a:hover {
 .title:first-of-type {
     border-bottom: 1.5px solid var(--snow);
     padding: 5px;
+}
+@media screen and (max-width:800px) {
+    .box:first-of-type {
+        width: 30%;
+    }
+    .box:last-of-type {
+        width: 70%;
+    }
 }
