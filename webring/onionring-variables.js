@@ -11,6 +11,7 @@ var sites = [
 'https://boombox.nekoweb.org/',
 'https://scribblekitteh.nekoweb.org/',
 'https://yolkdump.neocities.org/',
+"https://ruby.nekoweb.org",
 ];
 
 //the name of the ring

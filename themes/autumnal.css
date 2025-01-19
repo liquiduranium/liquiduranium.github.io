@@ -17,3 +17,6 @@ a:hover:not(nav ul li a) {
     background: var(--main);
     color: var(--sea);
 }
+a:active {
+    color: var(--main);
+}
